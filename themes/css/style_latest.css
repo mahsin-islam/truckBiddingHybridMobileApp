@@ -1,0 +1,1066 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@font-face {
+font-family:"HelveNueThin";
+src:url("../font/HelveticaNeueThn.eot?") format("eot"),url("../font/HelveticaNeueThn.woff") format("woff"),url("../font/HelveticaNeueThn.ttf") format("truetype"),url("../font/HelveticaNeueThn.svg#HelveNueThin") format("svg");font-weight:normal;font-style:normal;}
+
+
+@font-face {
+    font-family: 'titilliumitalic';
+    src: url('../font/titillium-regularitalic-webfont.eot');
+    src: url('../font/titillium-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-regularitalic-webfont.woff2') format('woff2'),
+         url('../font/titillium-regularitalic-webfont.woff') format('woff'),
+         url('../font/titillium-regularitalic-webfont.ttf') format('truetype'),
+         url('../font/titillium-regularitalic-webfont.svg#titilliumitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('../font/titillium-light-webfont.eot');
+    src: url('../font/titillium-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-light-webfont.woff2') format('woff2'),
+         url('../font/titillium-light-webfont.woff') format('woff'),
+         url('../font/titillium-light-webfont.ttf') format('truetype'),
+         url('../font/titillium-light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumbold_upright';
+    src: url('../font/titillium-boldupright-webfont.eot');
+    src: url('../font/titillium-boldupright-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-boldupright-webfont.woff2') format('woff2'),
+         url('../font/titillium-boldupright-webfont.woff') format('woff'),
+         url('../font/titillium-boldupright-webfont.ttf') format('truetype'),
+         url('../font/titillium-boldupright-webfont.svg#titilliumbold_upright') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumblack';
+    src: url('../font/titillium-black-webfont.eot');
+    src: url('../font/titillium-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-black-webfont.woff2') format('woff2'),
+         url('../font/titillium-black-webfont.woff') format('woff'),
+         url('../font/titillium-black-webfont.ttf') format('truetype'),
+         url('../font/titillium-black-webfont.svg#titilliumblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titillium_bdbold_italic';
+    src: url('../font/titillium-bolditalic-webfont.eot');
+    src: url('../font/titillium-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-bolditalic-webfont.woff2') format('woff2'),
+         url('../font/titillium-bolditalic-webfont.woff') format('woff'),
+         url('../font/titillium-bolditalic-webfont.ttf') format('truetype'),
+         url('../font/titillium-bolditalic-webfont.svg#titillium_bdbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumregular_upright';
+    src: url('../font/titillium-regularupright-webfont.eot');
+    src: url('../font/titillium-regularupright-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-regularupright-webfont.woff2') format('woff2'),
+         url('../font/titillium-regularupright-webfont.woff') format('woff'),
+         url('../font/titillium-regularupright-webfont.ttf') format('truetype'),
+         url('../font/titillium-regularupright-webfont.svg#titilliumregular_upright') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('../font/titillium-regular-webfont.eot');
+    src: url('../font/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-regular-webfont.woff2') format('woff2'),
+         url('../font/titillium-regular-webfont.woff') format('woff'),
+         url('../font/titillium-regular-webfont.ttf') format('truetype'),
+         url('../font/titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumlight_upright';
+    src: url('../font/titillium-lightupright-webfont.eot');
+    src: url('../font/titillium-lightupright-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-lightupright-webfont.woff2') format('woff2'),
+         url('../font/titillium-lightupright-webfont.woff') format('woff'),
+         url('../font/titillium-lightupright-webfont.ttf') format('truetype'),
+         url('../font/titillium-lightupright-webfont.svg#titilliumlight_upright') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titillium_bdbold';
+    src: url('../font/titillium-bold-webfont.eot');
+    src: url('../font/titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-bold-webfont.woff2') format('woff2'),
+         url('../font/titillium-bold-webfont.woff') format('woff'),
+         url('../font/titillium-bold-webfont.ttf') format('truetype'),
+         url('../font/titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumthin';
+    src: url('../font/titillium-thin-webfont.eot');
+    src: url('../font/titillium-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-thin-webfont.woff2') format('woff2'),
+         url('../font/titillium-thin-webfont.woff') format('woff'),
+         url('../font/titillium-thin-webfont.ttf') format('truetype'),
+         url('../font/titillium-thin-webfont.svg#titilliumthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumthin_upright';
+    src: url('../font/titillium-thinupright-webfont.eot');
+    src: url('../font/titillium-thinupright-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-thinupright-webfont.woff2') format('woff2'),
+         url('../font/titillium-thinupright-webfont.woff') format('woff'),
+         url('../font/titillium-thinupright-webfont.ttf') format('truetype'),
+         url('../font/titillium-thinupright-webfont.svg#titilliumthin_upright') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumsemibold_upright';
+    src: url('../font/titillium-semiboldupright-webfont.eot');
+    src: url('../font/titillium-semiboldupright-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-semiboldupright-webfont.woff2') format('woff2'),
+         url('../font/titillium-semiboldupright-webfont.woff') format('woff'),
+         url('../font/titillium-semiboldupright-webfont.ttf') format('truetype'),
+         url('../font/titillium-semiboldupright-webfont.svg#titilliumsemibold_upright') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumbold_italic';
+    src: url('../font/titillium-semibolditalic-webfont.eot');
+    src: url('../font/titillium-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-semibolditalic-webfont.woff2') format('woff2'),
+         url('../font/titillium-semibolditalic-webfont.woff') format('woff'),
+         url('../font/titillium-semibolditalic-webfont.ttf') format('truetype'),
+         url('../font/titillium-semibolditalic-webfont.svg#titilliumbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumlight_italic';
+    src: url('../font/titillium-lightitalic-webfont.eot');
+    src: url('../font/titillium-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-lightitalic-webfont.woff2') format('woff2'),
+         url('../font/titillium-lightitalic-webfont.woff') format('woff'),
+         url('../font/titillium-lightitalic-webfont.ttf') format('truetype'),
+         url('../font/titillium-lightitalic-webfont.svg#titilliumlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumbold';
+    src: url('../font/titillium-semibold-webfont.eot');
+    src: url('../font/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/titillium-semibold-webfont.woff2') format('woff2'),
+         url('../font/titillium-semibold-webfont.woff') format('woff'),
+         url('../font/titillium-semibold-webfont.ttf') format('truetype'),
+         url('../font/titillium-semibold-webfont.svg#titilliumbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'titilliumthin_italic';
+    src: url('..titillium-thinitalic-webfont.eot');
+    src: url('..titillium-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('..titillium-thinitalic-webfont.woff2') format('woff2'),
+         url('..titillium-thinitalic-webfont.woff') format('woff'),
+         url('..titillium-thinitalic-webfont.ttf') format('truetype'),
+         url('..titillium-thinitalic-webfont.svg#titilliumthin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.ui-input-text input, .ui-input-search input{border:0!important;}
+
+.ui-header .ui-title, .ui-footer .ui-title{text-shadow:none!important;  font-size: 1.3em!important;}
+img{height:auto; max-width:100%; width:auto;}
+.clearfix:after {clear:both;  content: ".";  display: block;  height: 0;  visibility: hidden;}
+.clearheight{clear:both;  content: ".";  display: block;  height:20px;  visibility: hidden;}
+.clearheights{clear:both;  content: ".";  display: block;  height:5px;  visibility: hidden;}
+.ui-input-text input::-moz-placeholder, .ui-input-search input::-moz-placeholder, textarea.ui-input-text::-moz-placeholder {color:#afafaf!important; opacity: 100;}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {background:#e8e4e4!important;}
+.blkheader{background:#d51f30!important; border-color:#d51f30!important; color:#fff!important; font-family:'titilliumsemibold_upright'!important;}
+.bar-hdr{background:url(../images/hdrbar.png) no-repeat center 12px!important;  z-index:99!important;border:0!important;  float:left; height:36px; padding:0!important; width:35px;}
+.back-hdr{background:url(../images/hdrarrow.png) no-repeat center center!important;  border:0!important; float:right; height:30px; width:28px;}
+.flopy-hdr{background:url(../images/headerflofy.png) no-repeat 50px center!important;  border:0!important;  float:left; height:43px;  padding:0!important;
+ width:78px;}
+.disa-hdr{background:url(../images/headerarrrowicon.png) no-repeat 10px center!important;  border:0!important; float:left; height:30px; right:40px!important; width:25px!important;}
+.delete-hdr{background:url(../images/delethrdicon.png) no-repeat 10px center!important;  border:0!important; float:right; height:30px; width:55px;}
+
+/*Sign-up*/
+.mainform{background:#fff; border:1px solid #c0c0c0; padding:1em;}
+h3.title{font-size:1.7em; text-align:center;}
+.dealership-app{}
+.dealership-app  .images{display:inline-block; vertical-align:middle; padding:0 10px}
+.dealership-app .delearinput {display:inline-block; vertical-align:middle; width:95%;}
+.dealership-app .delername .images{background:url(../images/dillericon.png) no-repeat center center!important; height:29px;  width:26px;}
+.dealership-app .delershipname .images{background:url(../images/delershipname.png) no-repeat center center!important; height:30px;  width:28px;}
+.dealership-app .delerphone .images{background:url(../images/phoneicn.png) no-repeat center center!important; height:22px;  width:28px;}
+.dealership-app .delerslsphone .images{background:url(../images/phoneicn.png) no-repeat center center!important; height:22px;  width:28px;}
+.dealership-app .deleremail .images{background:url(../images/emailicon.png) no-repeat center center!important; height:22px;  width:28px;}
+.dealership-app .delerslsemail .images{background:url(../images/emailicon.png) no-repeat center center!important; height:22px;  width:28px;}
+.dealership-app .delearinput .ui-input-text{background:none; border:0;}
+.dealership-app .delearinput .ui-input-text  input{background:#ececec; border:0 color:#000;}
+.dealership-app .view-row{background:#ececec; border:1px solid #c0c0c0; color:#000; border-radius:5px; margin:0 0 20px 0;}
+.dealership-app .view-action .submitapp{}
+.view-action .submitapp .ui-btn{background:#d51f30; color:#fff;  font-family:'titilliumsemibold_upright'!important; border-radius:5px; text-shadow:none; border:1px solid #d51f30; font-size:1.3em;}
+.dealership-app .view-action .loginhare{text-align: center; color:#000;  font-size:1.08em; margin:1.5em 0;}
+.dealership-app .view-action .loginhare a{font-family:'titilliumsemibold_upright'!important; color:#d51f30; text-shadow: none; text-decoration:none;}
+
+
+/*Footer part*/
+.ui-footer{border:0!important;}
+.footerlink{border-top:2px solid #d51f30; background:#fff;}
+.footerlink ul{margin:0; padding:0;}
+.footerlink ul li{display:inline-block; vertical-align:top; text-align:center; width:20%; float: left;}
+.footerlink ul li a{font-family: 'titilliumregular'; color:#d51f30; font-weight:normal; padding:15px 0; text-shadow:none; text-decoration:none; display:block;}
+.footerlink ul li.active {background:#d51f30!important;}
+.footerlink ul li.active  a  .images-dis, .footerlink ul li a:hover  .images-dis{color:#fff; display:block; padding: 20px 0 10px 0;}
+.footerlink ul li a .images-dis{color:#d51f30; display:block; padding: 20px 0 0;}
+.footerlink ul li.search a{background:url(../images/searchicon.png) no-repeat center 8px!important; display:block; padding: 25px 0 10px 0;}
+.footerlink ul li.findealer a{background:url(../images/findillericon.png) no-repeat center 8px!important; display:block; padding: 25px 0 10px 0;}
+.footerlink ul li.auction a{background:url(../images/auctionicon.png) no-repeat center 8px!important; display:block; padding: 25px 0 10px 0;}
+.footerlink ul li.notifly a{background:url(../images/noticacionicon.png) no-repeat center 8px!important; display:block; padding: 25px 0 10px 0;}
+.footerlink ul li.dashboard a{background:url(../images/dashboardicon.png) no-repeat center 8px!important; display:block; padding: 25px 0 10px 0;}
+.footerlink ul li.active.dashboard a, .footerlink ul li.active.dashboard a:hover{background:url(../images/dashboardiconh.png) no-repeat center 8px #d51f30!important;}
+.footerlink ul li.search a:hover, .footerlink ul li.active a{background:url(../images/searchiconh.png) no-repeat center 8px #d51f30!important; display:block; padding:25px 0 0 0;}
+.footerlink ul li.findealer a:hover, .footerlink ul li.active.findealer a{background:url(../images/findillericonh.png) no-repeat center 8px #d51f30!important; display:block; padding:25px 0 0 0;}
+.footerlink ul li.auction a:hover, .footerlink ul li.active.auction a{background:url(../images/auctioniconh.png) no-repeat center 8px #d51f30!important; display:block; padding: 25px 0 0 0;}
+.footerlink ul li.notifly a:hover, .footerlink ul li.active.notifly a{background:url(../images/noticacioniconh.png) no-repeat center 8px #d51f30!important; display:block; padding: 25px 0 0 0;}
+.footerlink ul li.dashboard a:hover, .footerlink ul li.active.dashboard a{background:url(../images/dashboardiconh.png) no-repeat center 8px #d51f30!important; display:block; padding: 25px 0 0 0;}
+
+
+
+/*Change Password*/
+.changepassword .titlepass{font-family:'titilliumsemibold_upright'!important; color:#000; font-size:1.2em; margin:5px 0;}
+.changepassword .inputpasswd{background:#f6f6f6; border:1px solid #c9c9c9; border-radius:3px; color:#000; margin:0 0 20px 0;}
+.changepassword .inputpasswd .ui-input-text{background:none; border:0; box-shadow: none;}
+.changepassword .inputpasswd  .ui-input-text input{background:none; border:0 color:#000;}
+
+/*forgotpassword*/
+.forgotpassword{}
+.forgotpassword .view-row{}
+.forgotpassword .useremail{position:relative;}
+.forgotpassword .useremail label{background:url(../images/usericon.png) no-repeat!important;  font-size:0; left:14px; padding:14px 12px;  position:absolute;
+text-indent:-9999px;  top:10px;}
+.forgotpassword .userpassword{position:relative;}
+.forgotpassword .userpassword label{background:url(../images/passwdicon.png) no-repeat!important; font-size:0; left:14px; padding:14px 12px;  position:absolute;
+text-indent:-9999px;  top:10px;}
+.forgotpassword .retype-password{position:relative;}
+.forgotpassword .retype-password label{background:url(../images/passwdicon.png) no-repeat!important; font-size:0; left:14px; padding:14px 12px;  position:absolute;
+text-indent:-9999px;  top:10px;}
+.forgotpassword .ui-input-text{background:#ececec!important; border:1px solid #c0c0c0!important; box-shadow: none;}
+.forgotpassword .ui-input-text input{ min-height: 3em!important; padding:0 1em 0 3em;}
+
+/*Login*/
+.forgot-password {text-align:right;}
+.forgot-password a{color:#d51f30!important; text-shadow:none; font-size:1em; text-decoration:none; font-family: 'titilliumregular';  font-weight: normal !important;}
+.forgotpassword .fb-button a{background:url(../images/flogo.png) no-repeat left center #3a5796!important; border-radius:5px;  color:#fff;  display:block;
+font-family: "titilliumregular";  font-size: 1.3em;  padding: 15px;  text-align: center;   text-decoration: none;  text-shadow: none;}
+.forgotpassword .fb-button a:hover{color:#8aafff!important;}
+.forgotpassword .fb-button{margin:15px 0 0 0;}
+
+/*Left Menu*/
+
+.panelists{background:#313233!important; position:fixed !important;}
+.panelists ul li{}
+/*.panelists ul li a.ui-btn{background:#313233; font-family:'titilliumregular'; border:0!important;  color:#fff; text-shadow:none; font-size:0.9em; padding:1em!important;}*/
+.panelists ul li a.ui-btn:hover{background:#262728; color:#5d5a5a; border:0!important; text-shadow:none;}
+.panelists ul li a.ui-btn-icon-right:after{background:0!important;}
+.panelists ul li span{padding:3px 8px 3px 50px;}
+.panelists ul li.main-menu a.ui-btn, .panelists ul li.dashboard a.ui-btn, .panelists ul li.setting a.ui-btn{background:#262728; color:#5d5a5a; text-transform: uppercase;}
+.panelists ul li.main-menu span{background:url(../images/main-menuicon.png) no-repeat left center!important; }
+.panelists ul li.search span{background:url(../images/leftsearchicon.png) no-repeat left center!important; }
+.panelists ul li.findealer span{background:url(../images/leftfindericon.png) no-repeat left center!important; }
+.panelists ul li.auction span{background:url(../images/leftactionicon.png) no-repeat left center!important; }
+.panelists ul li.notifions span{background:url(../images/leftnotflyicon.png) no-repeat left center!important; }
+.panelists ul li.favour span{background:url(../images/leftfavourate.png) no-repeat left center!important;}
+.panelists ul li.saved-search span{background:url(../images/leftsave-searchicon.png) no-repeat left center!important;}
+.panelists ul li.dashboard span{background:url(../images/leftdashboaricon.png) no-repeat left center!important;}
+.panelists ul li.my-dashboard span{background:url(../images/leftdashboardicon.png) no-repeat left center!important;}
+.panelists ul li.my-listing span{background:url(../images/leftlistingicon.png) no-repeat left center!important;}
+.panelists ul li.setting span{background:url(../images/leftseetingicon.png) no-repeat left center!important;}
+.panelists ul li.account-info span{background:url(../images/leftaccountinfoicon.png) no-repeat left center!important;}
+.panelists ul li.notifly-setting span{background:url(../images/leftsettingicon.png) no-repeat left center!important;}
+.panelists ul li.change-pass span{background:url(../images/leftpassicon.png) no-repeat left center!important;}
+.panelists ul li.logout span{background:url(../images/leftpassicon.png) no-repeat left center!important;}
+.panelists ul li.logout{position:absolute; bottom:0; width:100%;}
+.panelists ul li.logout a.ui-btn{background:#414243; padding:2em 1em!important;}
+.panelists ul li span.notidata{background:#fff!important; color:#313233; border-radius:10px; display:inline-block; margin:0 0 0 10px; padding:0 12px; text-align:center;}
+
+/*Dashboard*/
+
+.ui-content {overflow:hidden!important;}
+.fullviewscreen{margin:-1em;}
+.dashboard h3.dash-title{background:#b3d282; text-align:center; padding:0.5em; margin:0!important;}
+.dashboard h3.dash-title a{background:url(../images/addnewicon.png) no-repeat right center!important; color:#fff; text-shadow:none; text-transform:uppercase;
+padding: 0.5em 2.5em 0.5em 0.5em;  text-decoration:none; font-family:'titilliumregular'; font-weight:none; display: inline-block;}
+.dashboard h3.dash-title a:hover{color:#88a658;}
+
+.behind {width: 100%; height: 100%; position:absolute; top:0; right:0;}
+.behind a.ui-btn {width: 68px; margin: 0px; float: right; border: none;   padding: 1.6em 0.5em; }
+.behind a.delete-btn, .behind a.delete-btn:active, .behind a.delete-btn:visited, .behind a.delete-btn:focus, .behind a.delete-btn:hover {
+color: white; background-color: red; text-shadow: none;}
+.behind a.ui-btn.pull-left {float: left;}
+.behind a.edit-btn, .behind a.edit-btn:active, .behind a.edit-btn:visited, .behind a.edit-btn:focus, .behind a.edit-btn:hover {color: white; background-color:orange;
+text-shadow: none;}
+.trackdetail.ui-icon-carat-r:after{background:none;}
+.trackdetail{padding:0 1.1em !important;}
+.trackdetail .left-sec{display:inline-block; vertical-align:middle; width:90%; border-right: 1px solid #ddd;}
+.trackdetail .left-sec .image{display:inline-block; vertical-align:middle;}
+.trackdetail .left-sec .discrip{display:inline-block; vertical-align:middle; padding: 0 0 0 10px;}
+.trackdetail .left-sec .discrip h3.dis-truck{color:#d51f31; font-family:'titilliumsemibold_upright'!important; font-size:1.2em; margin:0;}
+.trackdetail .left-sec .discrip .small-discrip{color:#7b7e7f;  font-family: 'titilliumlight'; font-size:0.9em; font-weight:normal;}
+.trackdetail .left-sec .discrip .truckrate{color:#313233; font-family:'titillium_bdbold'!important; font-size:1.5em;   padding: 20px 0 0;}
+.publish .tops{color:#b3d282; font-family:'titilliumregular'; font-weight:normal; font-size:1em;}
+.trackdetail .right-sec .bottom{border-top:1px solid #c7c7c7; margin:10px 0; padding:10px 0;  font-family:'titilliumregular'; font-weight:normal; font-size:0.8em;}
+.paused .tops{color:#ecc66e; font-family:'titilliumregular'; font-weight:normal; font-size:1em;}
+.un-published .tops{color:#d51f30; font-family:'titilliumregular'; font-weight:normal; font-size:1em;}
+.edit-btns{background:#c7c7c7!important;}
+.unpublish-btns{background:#313233!important;}
+.delete-btns{background:#d51f30!important;}
+.buttons-three .discrip-hidden{font-family:'titilliumregular'; font-weight:normal; font-size:1em; text-align:center; color:#fff; text-shadow:none;}
+.trackdetail .right-sec{display:inline-block; vertical-align:middle; text-align: center;  padding: 0 0 0 1em;}
+.truckview ul.swipe-delete{margin: 0 -1em;}
+.truckview ul.swipe-delete-favourite{margin: 0 -1em;}
+/*Delear Listing*/
+
+.truckresult{text-align:center;}
+.truckresult .truckname h3{font-family: 'titillium_bdbold'!important; color:#313233; font-size:2em; margin: 0;}
+.truckresult .truckname {margin:1em 0; color:#7c7c7c;}
+.email-callbtn a, .email-callbtns a{color:#fff!important; text-shadow:none!important; font-family:'titilliumsemibold_upright'!important;}
+.email-callbtn, .email-callbtns{text-align:center;  margin: 0;}
+.email-callbtn .button-email{background:#313233!important;}
+.email-callbtn .button-sms {background:#c7c7c7!important;}
+.email-callbtn .button-call{background:#d51f30!important;}
+.email-callbtn .ui-btn{display:inline-block; margin:1%; border:0 none!important; width:33%; padding:1em;}
+.email-callbtn .button-email span{background:url(../images/butinemailicon.png) no-repeat left center!important; padding: 0 0 0 30px;}
+.email-callbtn .button-sms span{background:url(../images/buttoncallicon.png) no-repeat left center!important; padding: 0 0 0 30px;}
+.email-callbtn .button-call span{background:url(../images/buttoncallicon.png) no-repeat left center!important; padding: 0 0 0 30px;}
+.email-callbtns .ui-btn{display:inline-block; margin:1%; border:0 none!important; width:33%; padding:1em;}
+.email-callbtns .button-email{background:#313233!important;}
+.email-callbtns .button-call{background:#d51f30!important;}
+.email-callbtns .button-email span{background:url(../images/butinemailicon.png) no-repeat left center!important; padding: 0 0 0 30px;}
+.email-callbtns .button-call span{background:url(../images/buttoncallicon.png) no-repeat left center!important; padding: 0 0 0 30px;}
+.truckresult .truckaddress span{background:url(../images/addressicon.png) no-repeat left center!important; color:#d51f31;  display:inline-block;
+padding:1em 1.8em;  text-align:center;}
+
+/*add new listing*/
+h3.newlistingtitle{margin:-0.9em -1em 0; text-align:center; background:#313233; color:#fff; padding:1em; font-size: 1.3em; font-family:'titilliumsemibold_upright'!important; text-shadow:none;}
+.addnewlisting .ui-input-text{background:#f5f6f6; border:1px solid #c9c9c9!important;  box-shadow:none; padding:0.5em;  font-family:'titilliumlight';}
+.addnewlisting .ui-input-text input{color:#313233;  font-family:'titilliumlight';}
+.attributesform h3{margin-bottom:0; color:#313233;  font-family:'titilliumsemibold_upright'!important; font-size: 1.3em;}
+.attributesform .ui-select .ui-btn{background:#f5f6f6; border:1px solid #c9c9c9!important;  box-shadow:none; padding:1em;  font-family:'titilliumlight';}
+.attributesform .ui-select .ui-btn span{text-align:left;}
+.attributesform  textarea.ui-input-text{height:100%!important; min-height:100px;}
+.attributesform .ui-icon-carat-d:after{background:url(../images/downiconselect.png) no-repeat right center!important;}
+.addnewlisting .form-actions .autogeneral{background:#d51f30; color:#fff; font-family:'titilliumsemibold_upright'!important; font-size: 1.3em;}
+.addnewlisting .form-actions .contstep{background:#aacd72; color:#fff; font-family:'titilliumsemibold_upright'!important; font-size: 1.3em;}
+.step{margin:12px 0; padding:0;}
+.step .step-inner{background:#fff; border: 1px solid #c9c9c9 !important;  border-radius: 5px; box-shadow: none;    padding:1.5em 1em;}
+.newlistingsteps  .left{float:left;}
+.newlistingsteps .right{float:right;}
+.newlistingsteps  .left, .newlistingsteps .right{width:49%;}
+.includegst .left{display: inline-block; vertical-align: middle; font-size:1.3em; text-shadow:none; font-family:'titilliumregular';  font-weight:normal; margin: 0 10em 0 0;}
+.includegst .right{display: inline-block; vertical-align: middle; width:70%;}
+.includegst .right .top{display: inline-block; vertical-align: middle;  width:30%;}
+.includegst .right .bottom{display: inline-block;  vertical-align: middle; width:30%;}
+.includegst .right .views-radios .ui-radio .ui-btn {background:none!important; border:0!important; border-radius:0!important;  padding-left:3.5em; font-family:'titilliumregular'; font-weight:normal; font-size:1.1em; text-shadow:none; }
+.includegst .right .views-radios .ui-radio input{display:none;}
+.includegst .right .views-radios .ui-btn.ui-radio-on{background:url(../images/tickon.png) no-repeat!important;}
+.includegst .right .views-radios .ui-btn.ui-radio-off{background:url(../images/tickoff.png) no-repeat!important;}
+.includegst .right .views-radios .ui-btn.ui-radio-on:after{background:none!important; border:0;}
+.includegst .right .views-radios .ui-btn.ui-radio-off:after{background:none!important;  border:0;}
+
+/*Search Screen*/
+.searchhrd h1{background:url(../images/truchsarchiconhdr.png) no-repeat center center!important; font-size:0; text-indent:-9999px; display:block;}
+.searchmain .ui-panel-wrapper{background:#fff!important;}
+.searchtab{text-align: center;}
+.searchtab .left{background:#fff; color:#000; font-family:'titilliumsemibold_upright'!important; width:43%; font-size: 1em;  padding:1em 0.5em; display: inline-block; vertical-align:middle; text-shadow:none; cursor: pointer;text-align:center;}
+.searchtab .right{background:#e8e4e4; color:#000; font-family:'titilliumsemibold_upright'!important; font-size: 1em; width:43%; padding:1em 0.5em; display: inline-block; vertical-align:middle; text-shadow:none; cursor: pointer;text-align:center;}
+.searchmain  .ui-panel-wrapper .ui-content{margin-top:-1em;}
+.searchmain  .ui-panel-wrapper .ui-content { border-width: 0px;padding: 1em; padding-top: 2em !important;}
+.selectmin-max .left{display: inline-block; vertical-align:middle;  width: 48%;}
+.selectmin-max .right{float:right;  width: 48%;}
+.form-actions .search{background:#d51f30!important;  color:#fff!important;  font-family: "titilliumsemibold_upright" !important;  font-size: 1.3em;}
+
+/*shot*/
+.shotmain ul{margin:0; padding:0;}
+.shotmain ul li{list-style:none; background:#fff; border:1px solid #c9c9c9; border-top:0;}
+.shotmain ul li.first{ border-top:1px solid #c9c9c9;}
+.shotmain ul li a{color:#d51f30; padding:1em; text-decoration:none; font-family: "titilliumsemibold_upright" !important;  font-size: 1.3em; display:block;}
+
+
+/*Find a dealer*/
+
+.findealear{}
+.findealear .left{display: inline-block; vertical-align: middle;  width: 45%;}
+.findealear .middel{display: inline-block; vertical-align: middle; font-family: "titilliumsemibold_upright" !important;  font-size: 1em; text-align:center; margin:0 auto; width: 8%;}
+.findealear .right{float:right;  width: 45%;}
+.form-actions .findealer{background:#d51f30!important;  color:#fff!important;  font-family: "titilliumsemibold_upright" !important;  font-size: 1.3em;}
+.maps{text-align:center; margin:3em 0;}
+
+/*dealer slider*/
+.slider-main .slider-top{text-align:center; position:relative;}
+.slider-main .slider-top .sliderpic{position:absolute; top:20px; left:5%; background:#41474b; text-shadow:0; color:#fff;  font-size: 0.7em; padding: 0.5em 1em;}
+.slider-main .slider-top .sliderpic img{margin: 3px 0 -1px;  width:22%;}
+.slider-main .slider-top .sliderlogo{position:absolute;  right:5%;  top:20px;}
+.sliderbg{background:#fff;  border: 1px solid #c0c0c0;}
+.slider-main .slidercontner{border-top:1px solid #bababb; border-bottom:1px solid #bababb;}
+.slider-main .slidercontner .top h3{color:#313233; margin:0; font-family: 'titillium_bdbold'; font-size: 1.3em;}
+.slider-main .slidercontner .top{color:#727476; font-family:'titilliumlight'; font-size: 1em; padding:1em;}
+
+.slider-main .slidercontner .mid{}
+.slider-main .slidercontner .mid ul{margin:0; padding:0;border:1px solid #bababb; border-left:0; border-right:0;}
+.slider-main .slidercontner .mid ul li{list-style:none; display:inline-block; vertical-align:top; text-align:center; padding:1em 0.5em; font-family:'titilliumregular'; font-size:1.3em;}
+.slider-main .slidercontner .mid ul li.dealername{width:38%; border-left:1em solid #f37321; color:#f37321;  font-weight:bold; border-right:1px solid #bababb;}
+.slider-main .slidercontner .mid ul li.dealeryear{width:16%; margin:0 auto;  text-align:center;}
+.slider-main .slidercontner .mid ul li.dealerland{ width:40%; float:right; border-right:0; border-left:1px solid #bababb;}
+.slider-main .slidercontner .mid ul li.dealerland span.contryimg{background:url(../images/pinicon.png) no-repeat 0 6px!important; padding: 1px 7px;  margin: 0 5px 0 0;}
+.slider-main .slidercontner .mid ul li.dealerland span.contytext{display: inline-block;  font-size: 0.9em;  padding: 0 0 0 5px;  vertical-align: top;  width:78%;  line-height: 13px;}
+.slider-main .slidercontner .botom  { float: left; width: 100%; background:#aacd72;}
+.slider-main .slidercontner .botom  ul{margin:0; padding:0;border:0;}
+.slider-main .slidercontner .botom  ul li{list-style:none; display:inline-block; vertical-align:top; text-shadow:none; color#fff; padding:1em 0.5em;}
+.slider-main .slidercontner .botom  ul li.dealerrate{background:#313233; width:40%;  font-family: 'titillium_bdbold'; font-size: 1.3em; color:#fff; float:left;}
+.slider-main .slidercontner .botom  ul li.dealerstar{width:17.6%; margin:0 auto; text-align:center; padding: 0.75em 0; float:left; background:#aacd72;}
+.slider-main .slidercontner .botom  ul li.viewdetail{background:#d51f30; width:40%; float:right; text-align:center; padding: 1.4em 0.5em;}
+.slider-main .slidercontner .botom  ul li.viewdetail a{text-shadow:none; color:#fff!important; text-decoration:none; font-family: "titilliumsemibold_upright" !important; font-size:1.2em;}
+
+
+/*PRODUCT DERTAILS*/
+.sliderbg h3.titile{background:#fff; font-family: 'titillium_bdbold'; font-size: 1.3em; color:#000; text-align:center; padding:0 0.5em;}
+.slidercontner .top-leften .views {margin:0; padding:0; list-style:none; float:left; padding:1em;  text-align:center;}
+.slidercontner .top-leften .prodenq{width:40%; background:#303033;}
+.slidercontner .top-leften .prodcall{width:40%; background:#d51f30;}
+.slidercontner .top-leften .prodenq a{background:url(../images/butinemailicon.png) no-repeat 0 center!important; padding:0 0 0 25px;}
+.slidercontner .top-leften .prodcall a{background:url(../images/buttoncallicon.png) no-repeat 0 center!important; padding:0 0 0 25px;}
+.slidercontner .top-leften .prorating{width:13.8%; float:right; margin:0 auto; background:url(../images/starrating.png) no-repeat center center #aacd72!important; padding: 1.7em 1em;}
+.slidercontner .top-leften .prorating-change{width:10%; float:right; margin:0 auto; background:url(../images/rightstartop.png) no-repeat center center #aacd72!important; padding: 1.7em 1em;}
+.slidercontner .top-leften .views a{text-shadow:none; text-decoration:none; color:#fff; font-size:1.1em;}
+.refbmk{color:#959595;}
+.refbmkamt{color:#313134; font-family: 'titillium_bdbold'!important; font-size: 1.3em;}
+.addresspoints h3{background:url(../images/addressicon.png) no-repeat!important; color:#d51f30; padding: 0 0 0 2em;}
+.addresspoints{padding: 0 0 0 2em;}
+
+.discripaccorid .ui-icon-minus:after{background:url(../images/arrow-top.png) no-repeat 0 5px!important; border-radius: 0;}
+.discripaccorid .ui-icon-plus:after{background:url(../images/arrowbotom.png) no-repeat 0 5px!important; border-radius: 0;}
+.productdetail .odd{background:#f3f3f3;}
+.productdetail .even{background:#fff;}
+.ui-collapsible-content{padding-left:0!important; padding-right:0!important;}
+.productdetail  .view {float: left;  padding: 1em 0;  width: 100%;}
+.productdetail  .view .left{display:inline-block; vertical-align:top; color:#b7bbbe;  font-weight:bold; width:80px;  padding:0 0 0 5px;}
+.productdetail  .view .right{float:right;  text-align:right; width:70%;  padding:0 5px 0 0;margin-right: 1px;}
+.discrippragraph{padding:1em;}
+.top-leften{display: block;  float: left;  width: 100%; background:#d51f30;}
+.slider-main .slidercontner .mid ul{min-height:40px;}
+.slider-main .slidercontner .mid ul li{min-height:30px;}
+/*Dealer truck*/
+.truckone .images-t{text-align:center; margin:2em 0 0 0;}
+.truckone h3{font-family: 'titillium_bdbold'!important; font-size:2em; text-align:center;}
+.truckone .abnive {border-top:1px solid #ccc;}
+.truckone .abnive .left{display:inline-block; vertical-align:top; text-align:center; width:47%; border-right:1px solid #c9c9c9;}
+.truckone .abnive .right{display:inline-block; vertical-align:top;  text-align:center; width:46	%;}
+.truckone .abnive .left-view{font-family: "titilliumsemibold_upright"!important;}
+.truckone .abnive .right-view{font-family:'titilliumlight';}
+.truckone .abnive .views {padding:1em 0.5em; font-size:1.3em;}
+.truckbton{background:#d51f30;}
+.truckbton .ui-btn{float:left; display:block; width:40%; margin:0; border:0; font-family: "titilliumsemibold_upright"!important; color:#fff!important; font-size:1.2em;   font-weight: normal;}
+.truckbton .button-enwuery{background:#313233!important;}
+.truckbton .button-sms{background:#c9c9c9!important;}
+.truckbton .button-call{background:#d51f30!important;  margin: 0 -5px 0 0;}
+.truckbton .button-enwuery span{background:url(../images/butinemailicon.png) no-repeat 0 center;  padding: 0 0 0 25px;}
+.truckbton .button-sms span{background:url(../images/buttoncallicon.png) no-repeat 0 center;  padding: 0 0 0 25px;}
+.truckbton .button-call span{background:url(../images/buttoncallicon.png) no-repeat 0 center;  padding: 0 0 0 25px;}
+.addresspoints{padding: 0 0 0 2em;}
+.addresspoints h3 {background: url("../images/addressicon.png") no-repeat scroll 0 center!important;  color: #d51f30; padding:0.5em 0 0.5em 2em; font-family:'titilliumregular';  font-size:1.6em; text-align: left; }
+.truckparts{}
+.truckparts .leftpart{display:inline-block; vertical-align:top; width:88%;}
+.truckparts .rightpart{float:right; width:10%;}
+.truckparts .leftpart .images{display:inline-block; vertical-align:middle; margin-right:10px; width:24%!important;}
+.truckparts .leftpart .imagedis{display:inline-block; vertical-align:middle;}
+/*.truckparts   .leftpart .imagedis  h3.trucktitle{font-family: "titilliumsemibold_upright"!important; margin:0;  font-size:1.3em;}*/
+.truckparts   .leftpart .imagedis  h3.trucktitle{font-family: "titilliumsemibold_upright"!important; margin:0;  font-size:1em;}
+/*.truckparts  .leftpart .imagedis .discrip{color:#7b7e7f; font-family:'titilliumlight'; font-size:1em;}*/
+.truckparts  .leftpart .imagedis .discrip{color:#7b7e7f; font-family:'titilliumlight'; font-size:0.6em;}
+/*.truckparts  .leftpart .imagedis .truckprice{font-family:'titillium_bdbold'!important; font-size:1.5em; display:block; padding:10px 0 0;} */
+.truckparts  .leftpart .imagedis .truckprice{font-family:'titillium_bdbold'!important; font-size:1.2em; display:block; padding:8px 0 0;}
+.truckparts .view-rows{border:1px solid #c9c9c9;}
+.truckparts  .rightpart .greenstar{background:#aacd72!important;  padding: 0.9em; text-align: center;}
+.truckparts  .rightpart .redarrow{background:#d51f31!important; padding:1em; text-align: center;}
+
+/*camera screen*/
+.camra-screen .camera-shot{background:#000;  display: block;  margin: 0 -1em 1em -1em;  min-height:300px;}
+.camerashot-screen .left{display:inline-block;  vertical-align:top;  width:10%;}
+.camerashot-screen .right{float:right; width:90%;}
+.camerashot-screen .right .skipbtn{float:right;  text-align:right;}
+.camerashot-screen .right .skipbtn a{background:#d51f30; color:#fff;}
+.camerashot-screen .right .screen-camra{background: url("../images/camera-icon.png") no-repeat center center #aacd72!important; display:inline-block;  height:70px;  vertical-align:top;
+width:70%;}
+/*.camerashot-screen .right  .ui-btn {background:#d51f30;  color:#fff;  margin:0;  padding:1.5em;  text-shadow:none;}*/
+.camerashot-screen .right  .ui-btn {background:#d51f30;  color:#fff;  margin:0;  padding:1.3em;  text-shadow:none;}
+.screencamrea .ui-panel-wrapper{background:#fff!important;}
+.btnskip1{width:auto!important; float:none!important;  margin: 1em 0 0;}
+.btnskip1 a{}
+
+/*Favourite*/
+.favdetails .left-sec{border: 0 none!important;  width: 100%!important;}
+
+
+/*Notification*/
+.notify-main{margin:0 -1em;}
+.notify-main .rows{border-bottom:1px solid #c9c9c9;}
+.notify-main .rows .leftpart{display:inline-block;  padding:0.5em 1em; vertical-align:middle;}
+.notify-main .rows .rightpart{border-left:1px solid #c9c9c9; display:inline-block;  padding:1em; vertical-align:middle;}
+.notify-main .rows .rightpart .title{color:#aeadae; font-family: "titilliumsemibold_upright"!important;  font-size:1em;}
+.notify-main .rows .rightpart .discrip{font-family:'titillium_bdbold'!important; font-size:1em;}
+.notify-main .rows .rightpart .time{background: url("../images/time.png") no-repeat left center !important;  padding: 0 0 0 25px; color:#aeadae;}
+.notify-main .rows .rightpart .view-rows{margin:0 0 10px 0;}
+.notify-main .rows .rightpart  .title .right{ font-family: "titilliumsemibold_upright"!important;  font-size:1em; color:#000;}
+.notify-main .rows .rightpart  .discrip .error-red{color:#d51f30;}
+.notify-main .rows .rightpart  .discrip .msg-green{color:#aacd72;}
+
+
+/*Notification Setting*/
+.notifysetting-main{margin:1em 0;}
+.notifysetting-main .rows .left{display:inline-block; vertical-align:top;  font-family: "titilliumsemibold_upright"!important;  font-size:1.2em; margin-top:.5em !important;}
+.notifysetting-main .rows .right{float:right;}
+.notifysetting-main .rows .right .ui-slider a{background:#b3d282!important; border-color:#b3d282!important;}
+
+
+/*Payment*/
+
+.payment h3.amtcard{font-family: "titilliumsemibold_upright"!important;  font-size:2em; color:#000; text-align:center;}
+.payment .amountdata{color:#d51f30; font-family:'titillium_bdbold'!important;  font-size:5em; text-align:center; padding:0;}
+.paymentmain h3{font-family: "titilliumsemibold_upright"!important;  font-size:1.7em; color:#000; text-align:center;}
+.namecard{position:relative;}
+.namecard label{background: url("../images/cardname.png") no-repeat left center !important; position:absolute; left:12px;  padding:15px;  position:absolute;  top:12px;}
+.cardnumber{position:relative;}
+.cardnumber label{background: url("../images/cardno.png") no-repeat left center !important; position:absolute; left:12px;  padding:15px;  position:absolute;  top:12px;}
+.monthcvc .montyear{display:inline-block;  vertical-align:top;  width:48%; position:relative;}
+.monthcvc .cvcno{float:right;  width:48%; position:relative;}
+.monthcvc .montyear label{background: url("../images/cardays.png") no-repeat left center !important; position:absolute; left:12px;  padding:15px;  position:absolute;  top:18px;}
+.monthcvc .cvcno label{background: url("../images/cardlock.png") no-repeat left center !important; position:absolute; left:12px;  padding:15px;  position:absolute;  top:18px;}
+.paymentmain .ui-input-text input{margin: 0 0 0 2em; width:95%!important;}
+
+/*Auction*/
+.sliderbg .images-auc{padding:1em; text-align:center;}
+.sliderbg .images-auc-dis{padding:3em 1em; font-family:'titillium_bdbold'!important; font-size:1.3em; text-align:center;}
+
+/*SAVED SEARCHES*/
+
+.search-discriptions .left-sec{display:inline-block; vertical-align:middle;  width: 90%;  border-right: 1px solid #c9c9c9; padding: 0.5em 0;}
+.search-discriptions .right-sec{display:inline-block; vertical-align:middle;  padding: 0 0 0 1.5em; line-height: 90px;}
+.seach-discrip ul{margin:0; padding:0;}
+.seach-discrip ul li{list-style:none; display:inline-block;}
+.seach-discrip ul li:after{content:","; color:#aeadae; font-weight:normal;}
+.seach-discrip ul li span.title-search{color:#000;}
+.seach-discrip ul li span.title-sml{color:#aeadae; font-weight:normal;}
+.seach-discrip ul li span.discip{color:#aeadae;}
+.search-discriptions .search-time .time{background: url("../images/time.png") no-repeat left center !important; color:#aeadae; font-family:'titilliumregular'; font-weight:normal; 
+padding:0 0 0 25px;  margin: 0 20px 0 0;}
+.search-discriptions  .search-time .days{background: url("../images/searchdate.png") no-repeat left center !important; color:#aeadae; font-family:'titilliumregular'; font-weight:normal; 
+padding:0 0 0 25px;}
+.search-discriptions .search-time{margin:10px 0;}
+.searchviews  .ui-icon-carat-r:after{background:none!important;}
+.search-discriptions {padding:0 1em !important;}
+
+
+/*Account Information*/
+
+.acountinfo h3{border-bottom:1px solid #c9c9c9; padding:5px 0; font-size: 85%;}
+.acountinfo .left{display:inline-block;  vertical-align: middle; width:150px;}
+.acountinfo .right{display:inline-block;  vertical-align: middle; width:90%;}
+.acountinfo .right .ui-input-text{box-shadow:none; background:#f6f7f8; border:1px solid #c9c9c9; border-radius:5px; padding:8px 5px;}
+.acountinfo .right .ui-btn-icon-right:after{background: url("../images/downiconselect.png") no-repeat scroll right center!important;}
+.acountinfo .right .ui-select .ui-btn span {text-align: left;}
+.acountinfo .right .ui-select .ui-btn {background:#f5f6f6; border: 1px solid #c9c9c9 !important;  box-shadow: none;  font-family: "titilliumlight";  padding: 1em;}
+.saveacinfo{background:#d51f30!important;  color: #fff!important;  font-family: "titilliumsemibold_upright" !important;  font-size: 1.3em!important;}
+.controls-s .ui-btn{background:none; border:0;}
+.controls-s .ui-checkbox{display:inline-block; vertical-align:top;}
+.controls-s {text-align:center;}
+
+/*Enquiry List*/
+.enwuerylist textarea.ui-input-text{height:150px!important;}
+
+.dealInfo .truckparts .leftpart img{padding:6px 4px 0 6px;}
+
+/*ENQUIRY PAGE */
+
+#enqr_top
+{
+     text-align :center;
+}
+.e_left
+{
+    width:30% !important;
+    font-weight:bold;
+    text-align:left;
+    float :left;
+}
+.e_right
+{
+    width:30% !important;
+    font-weight:normal;
+    text-align :center;
+    text-align: word-break !important;
+}
+.btn_enqpge
+{
+    margin-top : 20px !important;
+}
+/*ENQUIRY PAGE */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape){
+.truckparts .rightpart .greenstar{padding:0.4em 0!important;}
+.truckparts .rightpart .redarrow{padding:0.4em 0!important;}
+.panelists ul li a.ui-btn{padding:0.6em 1em!important; font-size:0.53em!important;}
+
+}
+
+.buttons-three-notify .images-hidden img{height:3em !important; width:2.5em !important;}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+.panelists ul li a.ui-btn{padding:0.6em 1em!important; font-size:0.53em!important;}
+.slider-main .slidercontner .botom ul li.dealerstar {padding:0.7em 0;  width: 19.8%;}
+.slider-main .slidercontner .botom ul li.dealerstar img{width:40%;}
+
+/*
+.search-discriptions .search-time {float: left !important; font-size: 0.9em !important;}
+.seach-discrip ul li {font-size: 0.9em !important;}
+.search-discriptions .left-sec {float:left !important;  width: 80% !important;}
+.search-discriptions .left-sec .discrip{ width:90% !important;}
+.searchviews .ui-listview > li > a.ui-btn{white-space: normal !important;}
+*/
+
+.camerashot-screen .right .skipbtn{width:18%;}
+.camerashot-screen .right .ui-btn{ padding: 0.75em 1em !important;}
+.camerashot-screen .right .screen-camra{height:45px!important; margin: 0 0 0 5px!important; width: 80%!important;}
+
+.notify-main .rows .leftpart{ padding: 1em;}
+.notify-main .rows .rightpart{padding: 0.5em;  width: 70%;}
+.notify-main .rows .rightpart .title{font-size: 1em ; text-align: justify;word-wrap: break-word;word-spacing: -2px;}
+.notify-main .rows .rightpart .discrip{font-size: 1em;}
+.notify-main .rows .rightpart .time{font-size: 0.8em;}
+
+.sliderbg .images-auc{ padding: 1em;   width: 60%; margin: 0 auto;}
+.images-auc-dis{ padding: 1em;}
+
+.search-discriptions .search-time {float: left !important; font-size: 0.7em !important;}
+.seach-discrip ul li {font-size: 0.7em !important;}
+.search-discriptions .left-sec {float:left !important;  width: 80% !important;}
+.searchviews .ui-listview > li > a.ui-btn{white-space: normal!important;}
+
+.ui-panel-inner > .ui-listview {margin: -1em -1em 4em -1em!important;}
+h3.blk-title {width: 80%; font-size: 1em;}
+h3.title {font-size: 1em!important;}
+.ui-header .ui-title, .ui-footer .ui-title {margin: 0 15%!important; font-size: 1.2em !important;}
+.footerlink ul li a .images-dis {font-size:0.6em!important;}
+.footerlink ul li {width:20% !important; float:left;}
+.dealership-app .delearinput {width:78%!important;}
+.view-action .submitapp .ui-btn{font-size: 0.8em!important;  min-height: 4em !important}
+.forgotpassword .fb-button a {font-size:0.7em!important; padding: 20px 15px 20px 55px;}
+.email-callbtns .ui-btn{width:33%!important;}
+.email-callbtn .ui-btn{width:33%!important;}
+.includegst .left {font-size:1em;  margin: 0 1em 0 0!important;}
+.includegst .right .views-radios .ui-radio .ui-btn{padding: 10px 57px;}
+.includegst .right {width:63%;}
+.includegst .right .views-radios {width:48%;}
+.addnewlisting .form-actions .autogeneral{font-size:1.1em;}
+.truckone h3 {font-size:1.2em!important;}
+.truckone .abnive .views {font-size: 0.8em!important; width: 44%!important;}
+.truckbton .ui-btn {width:43%!important;  font-size: 0.8em;}
+.truckparts .leftpart .images {width: 35%; margin-right:15px;}
+.truckparts .leftpart .imagedis h3.trucktitle {font-size: 0.8em !important;}
+.truckparts .leftpart .imagedis .discrip {font-size: 0.8em;}
+.truckparts .leftpart .imagedis .truckprice{font-size:0.8em;}
+.truckparts .rightpart .greenstar{padding:0.3em 0;}
+.truckparts .rightpart .redarrow{padding:0.3em 0;}
+.truckparts .rightpart .greenstar img{width:50%;}
+.truckparts .rightpart .redarrow img{width:35%;}
+}
+
+.mapdealr{text-align:center; min-height:240px; width:100%;}
+@media only screen
+and (max-width:480px){
+
+}
+
+@media only screen
+and (min-width:480px)
+and (max-width:640px){
+
+h3.blk-title {width: 87%; font-size: 1em;}
+h3.title {font-size: 1em!important;}
+
+
+}
+
+@media only screen 
+and (max-device-width :640px) {
+    .buttons-three-notify .images-hidden img{height:3em !important; width:2.5em !important;}
+.acountinfo .right .ui-input-text{padding: 5px!important;}
+.acountinfo .left{ width: 80px;}
+.acountinfo .right { width: 70%;}
+.slider-main .slidercontner .botom ul li.dealerstar img{width:21%;}
+.slider-main .slidercontner .mid ul li.dealerland span.contytext{font-size: 0.9em; width:78%; line-height: 13px; margin-top: -3px;}
+.camerashot-screen .right .ui-btn{padding: 1.3em 0.8em;}
+
+
+/*
+.search-discriptions .search-time {float: left!important; font-size: 0.9em!important;}
+.seach-discrip ul li {font-size: 0.9em!important;}
+.search-discriptions .left-sec {float: left!important;  width: 80%!important;}
+.search-discriptions .left-sec .discrip{ width:90%!important;}
+.searchviews .ui-listview > li > a.ui-btn{white-space: normal!important;}
+*/
+.dealership-app .delearinput {width:90%;}
+.trackdetail .left-sec .image {width:20%;}
+.trackdetail .left-sec .discrip h3.dis-truck {font-size:0.8em;}
+.trackdetail .left-sec .discrip .small-discrip {font-size:0.6em;}
+.trackdetail .left-sec .discrip .truckrate {font-size:1em;}
+.trackdetail .left-sec{width:68%;}
+.trackdetail .right-sec .topsimages img{width:15%;}
+.publish .tops, .paused .tops, .un-published .tops{font-size:0.7em;}
+.trackdetail .right-sec .bottom{font-size:0.6em;}
+.trackdetail .left-sec .discrip .truckrate{padding: 5px 0 0;}
+.buttons-three .images-hidden img{width:20%;}
+.buttons-three-delete .images-hidden img{height:2.5em !important; width:2.5em !important;}
+.buttons-three  .discrip-hidden{font-size:0.8em;}
+.truckresult .truckname h3{font-size: 1em;}
+.truckresult .truckname {font-size:0.8em;}
+.email-callbtns .ui-btn{width:33%;}
+.email-callbtn .ui-btn{width:33%;}
+.includegst .left {margin: 0 3em 0 0;}
+.shotmain ul li a{padding:0.8em 0.5em; font-size:1em;}
+.findealear .left{width: 45%;}
+.findealear .middel{width: 8%;}
+.findealear .right{float:right;  width: 45%;}
+.slider-main .slider-top .sliderlogo {width:45%;}
+.slider-main .slidercontner .top h3{font-size:1em; font-family: 'titilliumregular'!important;}
+.slider-main .slidercontner .top {font-size:0.8em;}
+.slider-main .slidercontner .mid ul li{font-size:1em; display: inline-block; padding: 0.5em 0.2em; vertical-align: middle}
+.slider-main .slidercontner .mid ul li.dealername{ border-left:0.5em solid #f37321; width:36%;}
+.slider-main .slidercontner .mid ul li.dealerland{width:36%; text-align: left;}
+.slider-main .slidercontner .botom ul li.dealerrate{font-size:1em; width:37%; padding: 1.1em 0.5em;}
+.slider-main .slidercontner .botom ul li.viewdetail{padding: 1em 0.5em; width:36%; font-size:17px !important;}
+.slider-main .slidercontner .botom ul li.viewdetail a{font-size:0.9em;}
+.slider-main .slidercontner .botom ul li{font-size:1.1em; padding:1em 0.2em}
+.slider-main .slidercontner .botom ul li.dealerstar {padding: 0.65em 0;  width:21.5%;}
+.sliderbg h3.titile{font-size:1em;}
+.slidercontner .top-leften .views a{font-size: 0.8em;}
+.slidercontner .top-leften .prodenq{padding:1em 0.5em; width:40%!important;}
+.slidercontner .top-leften .prodcall{padding:1em 0.5em; width:39.4%!important;}
+.slidercontner .top-leften .prorating{padding: 1.65em 0.5em;  width: 13%;}
+.slider-main .slidercontner .mid ul li.dealeryear {font-size: 0.7em;  line-height:1.2em;}
+.addresspoints h3{font-size:0.7em!important;}
+.truckone h3 {font-size:1.5em;}
+.truckone .abnive .views {width: 46%;}
+.truckbton .ui-btn{width:44%;}
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+{
+.email-callbtns .ui-btn{width:33%!important;}
+.email-callbtn .ui-btn{width:33%!important;}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+.email-callbtns .ui-btn{width:33%!important;}
+.email-callbtn .ui-btn{width:33%!important;}
+}
+
+@media only screen 
+and (min-width : 1224px) {
+}
+
+
+@media only screen 
+and (max-device-width :360px) {
+.camerashot-screen .left {width: 15%;}
+.camerashot-screen .right {width: 83%;}
+.camerashot-screen .right .screen-camra {height: 45px !important; margin: 0 0 0 5px;  width: 75% !important;}
+.camerashot-screen .right .skipbtn {width: 20%;}
+.camerashot-screen .right .ui-btn {padding: 0.7em 0.35em !important;}
+.slider-main .slidercontner .botom ul li.dealerstar {padding: 0.94em 0 !important; width: 16.6% !important;}
+.slidercontner .top-leften .prodcall {width:30%!important;}
+}
+
+
+@media only screen 
+and (max-device-width :1280px) {
+    .footerlink ul li{display:inline-block; vertical-align:top; text-align:center; width:20% !important; float:left;}
+}
+@media only screen 
+and (max-device-width :320px) {
+.slider-main .slidercontner .botom ul li.dealerstar {padding: 0.95em 0!important;  width: 15%!important;}
+.slider-main .slidercontner .mid ul li.dealerland span.contytext {float: right!important; width: 75%!important;}
+.truckbton .ui-btn {width:42%!important;}
+.slidercontner .top-leften .prodcall {width:27%!important;}
+.panelists ul li a.ui-btn{padding:0.5em 1em!important;}
+}
+@media only screen 
+and (max-device-width :480px) {
+.slider-main .slidercontner .botom ul li.dealerstar{width: 19.4%;}
+.slider-main .slidercontner .botom ul li.dealerstar img {width: 30%;}
+.truckbton .ui-btn {width: 45%;}
+.slidercontner .top-leften .prodcall{ width:26%!important;}
+}
+.ui-header-fixed, .ui-footer-fixed {z-index: 9999 !important;}
+
+#dealerInfoMain{padding:0em !important;}
+.dealInfo{padding:1em !important;}
+.ui-panel{ z-index: 999;}
+.abc{max-height:500px!important; z-index: 999;width: 17em;
+    min-height: 100%;
+    max-height: none;
+    border-width: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+.trackdetail .left-sec {width:85%!important;}
+.slider-main .slidercontner .botom ul li.dealerstar {width:16.2%!important;}
+.slider-main .slidercontner .mid ul li.dealerland { width: 37%!important;}
+.truckbton .ui-btn {width: 46.3%;}
+.truckone .abnive .views {width:46%;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.slidercontner .top-leften .prodcall {width: 36.8%!important;}
+.truckbton .ui-btn {width: 46%!important;}
+.slider-main .slidercontner .botom ul li.dealerstar {width: 14.9%!important;}
+.trackdetail .left-sec {width:80%!important;}
+.slider-main .slidercontner .mid ul li.dealerland { width: 33%!important;}
+}
+.panelists ul li a.ui-btn{background:#313233; font-family:'Verdana'; border:0!important;  color:#fff; text-shadow:none; font-size:0.7em; padding:1em!important;}
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a{font-weight:500;}
+.ui-header .ui-title{font-weight:normal!important;}
+
+.sliderimages img{max-height:300px; height:300px; min-height:300px;}
+h3.trucktitle {text-align: inherit!important;}
+
+
+
+
+@media only screen 
+and (min-device-width : 750px)
+and (max-device-width : 1334px)
+and (orientation : portrait) {
+.slider-main .slidercontner .mid ul li.dealerland {width: 33%!important;}
+.slider-main .slidercontner .botom ul li.dealerstar{width: 14.8%!important;}
+.truckbton .ui-btn {width:45%!important;}
+
+}
+
+@media only screen 
+and (min-device-width : 750px)
+and (max-device-width : 1334px)
+and (orientation : landscape) {
+.slider-main .slidercontner .botom ul li.viewdetail {width:40%!important;}
+.slider-main .slidercontner .botom ul li.dealerstar {width: 17.1%!important;}
+.slider-main .slidercontner .mid ul li.dealeryear {width: 15%;}
+.truckbton .ui-btn {width:46%!important;}
+
+}
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape)
+{
+.slider-main .slidercontner .botom ul li.viewdetail {width:33%!important;}
+
+.slider-main .slidercontner .mid ul li.dealeryear {width:7%!important;}
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+.slider-main .slidercontner .botom ul li.viewdetail {width:33%!important;}
+.slider-main .slidercontner .mid ul li.dealeryear {line-height: 3em;}
+.camerashot-screen .right {width: 85%!important;}
+.camerashot-screen .right .screen-camra {width:70%!important;}
+.camerashot-screen .right .skipbtn {width:auto!important;}
+.panelists ul li a.ui-btn{padding:1em!important; font-size:0.7em!important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

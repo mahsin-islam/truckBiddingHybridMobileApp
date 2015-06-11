@@ -135,6 +135,11 @@ function productDetail()
     $.mobile.changePage("#pageProductDetails", {transition:"none"})
 }
 
+function bidDetail()
+{
+    $.mobile.changePage("#pageBidDetails", {transition:"none"})
+}
+
 function navLogin(){
     $.mobile.changePage("#pageLogin", {transition:"none"})
     $( "#panelLoginLogin" ).panel( "close" );

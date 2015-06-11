@@ -16,7 +16,18 @@
         
         <title>Hello World</title>
 <!--        <script type="text/javascript" src="js/imageMapResizer.min.js"></script>-->
-        <script type="text/javascript" src="cordova.js"></script>
+     <script src="phonegap.js"></script>
+        <script src="device.js"></script>
+        <script >
+            document.addEventListener('deviceready',
+                    onDeviceReady,
+                    false);
+            function onDeviceReady() {
+                alert("using PhoneGap 3.1.0");
+                alert("model = " + device.model);
+            }
+        </script>
+
         <script type="text/javascript" src="js/navigate.js"></script>
         <script type="text/javascript" src="js/validate.js"></script>
          <script type="text/javascript" src="js/swipeDelete.js"></script>
@@ -2831,10 +2842,14 @@
 
 <!--*********************************** Auction finish ****************************************-->
 
+            <!--<div data-role="header" data-position="fixed" class="blkheader">-->
+                <!--<a href="#" onclick="panel_Open('panelSearchResult')" class="ui-btn ui-btn-left bar-hdr" data-iconpos="notext"></a>-->
+                <!--<a href="#" onclick="saveYrSearch_AU();" class="ui-btn ui-btn-left flopy-hdr" data-iconpos="notext"></a>-->
+                <!--<h1 style="visibility:hidden;">Trucks</h1>-->
 
-
-
-
+                <!--<a href="#" onclick="history.back()" class="ui-btn ui-btn-right back-hdr" data-iconpos="notext"></a>-->
+                <!--<a href="#" onclick="navSorting()" class="ui-btn ui-btn-right disa-hdr" data-iconpos="notext"></a>-->
+            <!--</div>-->
 
 <div data-role="page"  class="searchmain" id="pageAuction">
 
@@ -2844,41 +2859,56 @@
         <a href="#" onclick="history.back()" class="ui-btn ui-btn-right back-hdr" data-iconpos="notext"></a>
     </div>
 
-    <div role="main" class="ui-content clearfix">
-        <h3 class="newlistingtitle">Auction <span>General Informartion:</span></h3>
-        <div class="addnewlisting clearfix">
-            <div class="step">
-                <input name="text-basic" id="add_Auction" value="" placeholder="Your Bid" type="text">
-            </div>
-            <div class="step" id="cntainer_addStock_Auction">
-                <input name="text-basic" id="add_Stock_Auction" value="" name="stockrefno" placeholder="Auto Bid" type="text">
-            </div>
-            <!--<div class="attributesform">-->
 
-                <!--<div class="view-row newlistingsteps clearfix">-->
-                    <!--<span class="left"><input name="text-basic" id="add_year_Auction" value="" placeholder="Year" type="text"></span>-->
-                    <!--<span class="right"><input name="text-basic" id="add_price_Auction" value="" placeholder="$price" type="text"></span>-->
-
-                <!--</div>-->
-
-            <!--</div>-->
-
-            <div class="form-actions clearfix" onclick="searchTrucks_Au()">
-
-                <!--                <div class="form-actions clearfix" onclick="getCam()">-->
-                <a href="#" class="ui-btn search" id="btn_auction_bid" dealr_atri="">Bid Now</a>
-            </div>
-            <div class="form-actions clearfix" onclick="searchTrucks_Au()">
-
-                <!--                <div class="form-actions clearfix" onclick="getCam()">-->
-                <a href="#" class="ui-btn search" id="search_btn_hmePge" dealr_atri="">MAX AUTO BID</a>
-            </div>
-          <!--  <div class="form-actions clearfix">
-                &lt;!&ndash;                 <a href="#" class="ui-btn contstep" onclick="addStep2()">CONTINUE TO STEP 2</a>&ndash;&gt;
-                <a href="#" class="ui-btn contstep" id="step2button_Auction" onclick="dspsteptwo_Adlst();">Maximum Auto Bid</a>
-            </div>-->
+    <div role="main" class="ui-content  clearfix" >
+        <div>
+            <div class="scrollable">
+                <div class="wrap">
+                <ul class="topcoat-list__container list" id="container_ressearcgPage1" style="list-style:none;">
+                    <li class="topcoat-list__item">
+                    <div class="sliderbg" id="topcontainerTruckdetails">
+                        <div class="slider-main" id="truckdetailsandPic_Au">
+                            <div class="slider-top">
+                                <div class="sliderimages"><img src="themes/images/01.png"></div>
+                                <div class="sliderpic">
+                                    <span class="picimg"><img src="themes/images/smltruckimg.png"></span>
+                                    <span class="pictext">1 of 1</span>
+                                </div>
+                                <div class="sliderlogo">
+                                    <img src="themes/images/sliderlogo1.png">
+                                </div>
+                            </div>
+                            <div class="slidercontner" id="Truckdetails_Container_AU">
+                                <div class="top" id="headrTruckDetails_AU">
+                                    <h3>2011 Kenworth K200 - WHITE</h3>
+                                    Trucks/Prime Mover
+                                </div>
+                                <div class="mid" id="middleTruckDetails_AU">
+                                    <ul id="middleListTruck_AU">
+                                        <li class="dealername">Dealer Used</li>
+                                        <li class="dealeryear">2011</li>
+                                        <li class="dealerland"><span class="contryimg"></span><span class="contytext">Queensland </span></li>
+                                    </ul>
+                                </div>
+                                <div class="botom" id="bottomTruckDetails_AU">
+                                    <ul id="lowerListTruck_AU">
+                                        <li class="dealerrate">$17,600,000</li>
+                                        <li class="dealerstar"><img src="themes/images/starrating.png"></li>
+                                        <li class="viewdetail"><a href="#" onclick="bidDetail()">VIEW DETAILS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+                </div>
+                </div>
         </div>
+        <div class="clearheight"></div>
     </div>
+
+
     <div data-role="footer" class="Footer" data-position="fixed" >
         <div class="footerlink">
             <ul>
@@ -2943,6 +2973,172 @@
 </div>
 
 <!--*********************************** Auction finish ****************************************-->
+
+<!--*********************************** Bid Details Start *********************************-->
+        <div data-role="page" id='pageBidDetails'>
+            <div data-role="header" data-position="fixed" class="blkheader">
+                <a href="#" onclick="panel_Open('panelProduct')" class="ui-btn ui-btn-left bar-hdr" data-iconpos="notext"></a>
+                <h1>AUCTION BID DETAILS</h1>
+                <a href="#" onclick="history.back()" class="ui-btn ui-btn-right back-hdr" data-iconpos="notext"></a>
+            </div>
+
+            <div role="main" class="ui-content  clearfix">
+                <div class="sliderbg" id="truckinfocontainer_resPg1">
+                    <div id="h1containr1">
+                        <h3 class="titile" id="topHeader_prodctdetailsPg1">2011 Kenworth T3590 - YELLOW/WHITE</h3>
+                    </div>
+                    <div class="slider-main">
+                        <div class="slider-top" id="imageContainr_Slider1">
+                            <div class="sliderimages">
+                                <!--                        <img src="themes/images/01.png">-->
+                                <a href="#" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="themes/images/demoImg.jpeg" ></a>
+                            </div>
+                            <div class="sliderpic">
+                                <span class="picimg"><img src="themes/images/smltruckimg.png"></span>
+                                <span class="pictext">1 of 1</span>
+                            </div>
+                            <div class="sliderlogo">
+                                <img src="themes/images/sliderlogo1.png">
+                            </div>
+                        </div>
+                        <div data-role="popup" id="popupParis1" data-overlay-theme="b" data-theme="b" data-corners="false" max-height:500px;>
+                                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="themes/images/01.png" style="max-height:auto;" alt="Paris, France">
+                        </div>
+
+
+
+                        <div class="slidercontner" id="remaingDetails_selectedTruck1">
+                            <div class="top-leften">
+                                <span class="views prodenq" id="mailme_selectedtruck1"><a href="#">Enquiry</a></span>
+                                <span class="views prodcall" id="callme_selectedtruck1"><a href="#">Call</a></span>
+                                <span class="views prorating-change"></span>
+                            </div>
+                            <div class="mid">
+                                <ul>
+                                    <li class="dealername">Dealer Used</li>
+                                    <li class="dealeryear refbmk">REF: 790bmK</li>
+                                    <li class="dealerland refbmkamt">$17,600,000</li>
+                                </ul>
+                            </div>
+                            <div class="addresspoints">
+                                <h3>Sunshine Coast Truck Centre, Forest Glen, Quensland, 4556 </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearheights"></div>
+                <div class="discripaccorid" id="uppercollapsible_resultPg1">
+                    <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-iconpos="right">
+                        <div data-role="collapsible">
+                            <h3>Description</h3>
+                            <div class="discrippragraph">KENWORTH K200 PRIME MOVER, 7/2011, 6x4, Cummins 525hp, 18 speed road ranger, Air Glide 400 suspension, Meritor 46-160 rear axles, ABS, 10 stud alloy wheels, alloy FUPS bullbar, cruise control, sun visor, stone guard, air conditioned, am, fm, cd  uhf radios, Navman, power windows and mirrors, in-built Waeco fridge, Viesa cab cooler, Lubecore auto greaser, spotlights, rear mounted work light  rear axle guards.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearheights"></div>
+                <div class="discripaccorid" id="middlecollapsible_resultPg1">
+                    <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-iconpos="right">
+                        <div data-role="collapsible">
+                            <h3>Product Details</h3>
+                            <div class="productdetail" id="custom_attributes_Au1">
+                                <div class="view odd">
+                                    <span class="left">Price:</span>
+                                    <span class="right">#17,600,000</span>
+                                </div>
+                                <div class="view even">
+                                    <span class="left">Price:</span>
+                                    <span class="right">#17,600,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearheights"></div>
+                <div class="discripaccorid" id="lowercollapsible_resultPg1">
+                    <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-iconpos="right">
+                        <div data-role="collapsible">
+                            <h3>Further Details</h3>
+                            <div class="productdetail" id="further_detailsa1">
+                                <div class="view odd">
+                                    <span class="left">Price:</span>
+                                    <span class="right">#17,600,000</span>
+                                </div>
+                                <div class="view even">
+                                    <span class="left">Price:</span>
+                                    <span class="right">#17,600,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" class="Footer" data-position="fixed" >
+                <div class="footerlink">
+                    <ul>
+                        <li class="search" onclick="navSearch()">
+                            <a href="#">
+                                <div class="images-dis">Search</div>
+                            </a>
+                        </li>
+                        <li class="findealer" onclick="navFind()">
+                            <a href="#">
+                                <div class="images-dis">Find a Dealer</div>
+                            </a>
+                        </li>
+                        <li class="auction" onclick="navAuction()">
+                            <a href="#">
+                                <div class="images-dis">Auction</div>
+                            </a>
+                        </li>
+                        <li class="notifly">
+                            <a href="#">
+                                <div class="images-dis" onclick="navNotification()">Notifications</div>
+                            </a>
+                            <div class="notifactiondata notifycount hideshownotif"></div>
+                        </li>
+                        <li class="dashboard" onclick="navDashboard()">
+                            <a href="#" class="dashboard">
+                                <div class="images-dis">Dashboard</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-role="panel" id="panelProduct1" data-display="push" data-position="left" class="panelists">
+                <ul data-role="listview" class="main_menus">
+                    <li class="main-menu view-row"><a href="#"><span>Main Menu</span></a></li>
+                    <li class="search view-row"><a href="#" onclick="navSearch()"><span>Search</span></a></li>
+                    <li class="findealer view-row"><a href="#" onclick="navFind()"><span>Find a Dealer</span></a></li>
+                    <li class="auction view-row"><a href="#" onclick="navAuction()"><span>Auction</span></a></li>
+                    <li class="notifions view-row"><a href="#" onclick="navNotification()"><span>Notifications</span> <span class="notidata notifycount"></span></a></li>
+                    <li class="favour view-row"><a href="#" onclick="navFavourit()"><span>Favourites</span> <span class="notidata favcount"></span></a></li>
+                    <li class="saved-search view-row"><a href="#" onclick="navSaveSearch()"><span>Saved Searches</span></a></li>
+                    <li class="dashboard view-row"><a href="#"><span>Dashboard</span></a></li>
+                    <li class="my-dashboard view-row"><a href="#"  onclick="navDashboard()"><span>My Dashboard</span></a></li>
+                    <li class="my-listing view-row"><a href="#" onclick="navMylist();"><span>My Listings</span></a></li>
+                    <li class="setting view-row"><a href="#"><span>Settings</span></a></li>
+                    <li class="account-info view-row"><a href="#" onclick="navAccountInfo()"><span>Account Information</span></a></li>
+                    <li class="notifly-setting view-row"><a href="#" onclick="navNotifiSetting()"><span>Notification Settings</span></a></li>
+                    <li class="change-pass view-row"><a href="#" onclick="navChangePass()"><span>Change Password</span></a></li>
+                    <li class="logout view-row"><a href="#" onclick="navLogout('pageBidDetails','panelProduct1')"><span>Logout</span></a></li>
+                </ul>
+            </div>
+            <div data-role="panel" id="panelProductLogin1" data-display="push" data-position="left" class="panelists">
+                <ul data-role="listview" class="main_menus">
+                    <li class="main-menu view-row"><a href="#"><span>Main Menu</span></a></li>
+                    <li class="search view-row"><a href="#" onclick="navSearch()"><span>Search</span></a></li>
+                    <li class="findealer view-row"><a href="#" onclick="navFind()"><span>Find a Dealer</span></a></li>
+                    <li class="auction view-row"><a href="#" onclick="navAuction()"><span>Auction</span></a></li>
+                    <li class="logout view-row"><a href="#" onclick="navLogin()"><span>Login</span></a></li>
+                </ul>
+            </div>
+        </div>
+<!--*********************************** Product Details finish *********************************-->
+
 
 <!--*********************************** Saved Search start ************************************-->
 
@@ -3916,6 +4112,7 @@
 
 
 <!--<script type="text/javascript" src="phonegap.js"></script>-->
+<script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="pullToRef/jquery.plugin.pullToRefresh.js"></script>
 <script type="text/javascript" src="js/jquery.plugin.pullToRefreshMyList.js"></script>
 <script type="text/javascript" src="pullToRef/app.js"></script>

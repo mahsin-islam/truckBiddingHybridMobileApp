@@ -16,7 +16,7 @@
         
         <title>Hello World</title>
 <!--        <script type="text/javascript" src="js/imageMapResizer.min.js"></script>-->
-     <script src="phonegap.js"></script>
+     <!--<script src="phonegap.js"></script>-->
         <script src="device.js"></script>
         <script >
             document.addEventListener('deviceready',
@@ -28,6 +28,7 @@
             }
         </script>
 
+        <!--<script type="text/javascript" src="cordova.js"></script>-->
         <script type="text/javascript" src="js/navigate.js"></script>
         <script type="text/javascript" src="js/validate.js"></script>
          <script type="text/javascript" src="js/swipeDelete.js"></script>
@@ -3028,6 +3029,36 @@
                 </div>
 
                 <div class="clearheights"></div>
+                <div class="sliderbg" id="truckbidcontainer_resPg1">
+                    <div class="searchtab">
+                        <div class="left" id="dealer_clicked1" onclick="loadCatagories1_AU();" style="background: rgb(128, 128, 128);">BACK TO AUCTION</div>
+                        <div class="right" id="private_clicked1" onclick="loadCatagories1PRivate_AU();" style="background: rgb(232, 228, 228);">ADD TO WATCHLIST</div>
+                    </div>
+
+                </div>
+
+                
+                <div class="clearheights"></div>
+
+                <div class="discripaccorid" id="bidForm_resultPg1">
+                    <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-iconpos="right">
+                        <div data-role="collapsible">
+                            <h3>Data Role Bids</h3>
+                            <div class="productdetail" id="bids_attributes_Au1">
+                                <div class="view odd">
+                                    <span class="left">Number of Bids:</span>
+                                    <span class="right">#5</span>
+                                </div>
+                                <div class="view even">
+                                    <span class="left">Current Bid:</span>
+                                    <span class="right">#17,600,000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clearheights"></div>
                 <div class="discripaccorid" id="uppercollapsible_resultPg1">
                     <div data-role="collapsibleset" data-theme="a" data-content-theme="a" data-iconpos="right">
                         <div data-role="collapsible">
@@ -4113,7 +4144,6 @@
 
 <!--<script type="text/javascript" src="phonegap.js"></script>-->
 
-<script type="text/javascript" src="cordova.js"></script>
 
 <script type="text/javascript" src="pullToRef/jquery.plugin.pullToRefresh.js"></script>
 <script type="text/javascript" src="js/jquery.plugin.pullToRefreshMyList.js"></script>
